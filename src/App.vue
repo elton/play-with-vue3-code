@@ -1,5 +1,9 @@
-<script setup></script>
+<script setup>
+import Chapter01 from './components/Chapter01.vue';
+</script>
 
 <template>
-  <h1 class="text-3xl font-bold underline">Hello world!</h1>
+  <div class="m-4 text-sm text-neutral-600">
+    <Chapter01 />
+  </div>
 </template>
